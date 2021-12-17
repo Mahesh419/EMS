@@ -1,0 +1,1 @@
+export {default as employeeController} from "./employee/employee.controller";
