@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 const ENV = process.env.environment || 'dev';
 
-const swaggerFile: any = (process.cwd()+"/src/swagger/v1/swagger.json");
+const swaggerFile: any = (process.cwd()+"/src/swagger/swagger.json");
 const swaggerData: any = fs.readFileSync(swaggerFile, 'utf8');
 const swaggerDocument = JSON.parse(swaggerData);
 
